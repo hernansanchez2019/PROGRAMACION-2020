@@ -62,51 +62,35 @@ int suma(int primeroParametro, int segundoParametro)//suma dos numeros y retorna
 
 //------ ejemplo 3 ----------------------
 
+ #include "Funciones.h"
 
-void saludar(); // funcion prototipo, no devuelve nada
-int suma(int primeroParametro, int segundoParametro);// funcion prototipo , devuelve un entero
-void cambiarContenidoPorValor(int primerParametro);
 
 int main()
 {
     int respuesta;
     int edadUno;
     int edadDos;
+    int resultadoDeLasuma();
+
+    resultadoDeLasuma=pedirDatosYoperar();
 
     edadUno=33;
     cambiarContenidoPorValor(edadUno);
-    printf("\n La edad es : %d",edadUno);
+    printf(" La suma es : %d\n",resultadoDeLasuma);
 
+    pedirDatosYoperar();
+    saludar();// llama a la funcion , solo en el main se repite la funcion
 
 
 
     edadDos=22;
-    saludar();// llama a la funcion , solo en el main se repite la funcion
-    respuesta=suma(3,7);// llama a la funcion suma , solo en el main se repite la funcion
-    printf("La suma es ( de literales : %d\n",respuesta);
-    respuesta=suma(edadUno,edadDos);
-    printf("La suma es ( de variables : %d\n",respuesta);
+
+    respuesta=Suma(3,7);// llama a la funcion suma , solo en el main se repite la funcion
+    printf("La suma es ( de literales ): %d\n",respuesta);
+    respuesta=Suma(edadUno,edadDos);
+    printf("La suma es ( de variables) : %d\n",respuesta);
 
     return 0;// finalmente
-}
-
-void saludar() // void no va a retornar nada
-{
-    printf("bienvenido a las funciones\n"); // ejecuta la funcion
-}
-int suma(int primeroParametro, int segundoParametro)//suma dos numeros y retorna el resultado
-{
-    int sumaRetorno;
-    sumaRetorno=primeroParametro +segundoParametro;// lo que va a devolver en pantalla
-    return sumaRetorno;
-}
-
-void cambiarContenidoPorValor(int primerParametro)
-{
-    printf("\n El parametro antes es %d",primerParametro);
-    primerParametro=9;
-    printf("\n El parametro despues es %d",primerParametro);
-
 }
 
 
