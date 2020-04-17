@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1585920022 source:c:\users\hernan\desktop\clase 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"input.h"
+
+1585920022 c:\users\hernan\desktop\clase 4\input.h
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586984838 source:c:\users\hernan\desktop\clase 6\cadena de caracteres\ejercicio nombres\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

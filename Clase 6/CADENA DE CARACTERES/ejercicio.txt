@@ -1,0 +1,6 @@
+
+nombre = el usuario las tiene que ingresar
+apellido= el usuario las tiene que ingresar
+
+apellidoYnombre = guardamos nombre y apellido --------> mostramos asi " Sanchez, Roberto Hernan"
+ usamos gets
