@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1587219788 source:c:\users\hernan\desktop\1 clase sabado\main.c
+	<stdio.h>
+	"funciones.h"
+
+1587219743 source:c:\users\hernan\desktop\1 clase sabado\funciones.c
+
+1587219743 c:\users\hernan\desktop\1 clase sabado\funciones.h
+
