@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1588786751 source:c:\users\hernan\desktop\operaciones matematicas\main.c
+	<stdio.h>
+	<stdlib.h>
+

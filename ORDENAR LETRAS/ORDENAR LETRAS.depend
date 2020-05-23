@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1588725085 source:c:\users\hernan\desktop\ordenar letras\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1589576262 source:c:\users\hernan\desktop\programacion-2020\ordenar letras\main.c
+	<stdio.h>
+	<stdlib.h>
+
